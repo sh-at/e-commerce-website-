@@ -1,0 +1,32 @@
+.heading{
+    width: 100%;
+    border-bottom: .2rem solid rgba(0,0,0,.3);
+    margin:0 auto;
+}
+
+.heading span{
+    padding:1rem 3rem;
+    color:#fff;
+    background:#2980b9;
+    border-top-right-radius: 3rem;
+    display: inline-block;
+}
+.card-header{
+    color:#2980b9;
+}
+.card-body span{
+    color:#666;
+    text-decoration: line-through;
+}
+.card-body .star a i{
+    color:orange;
+}
+.card-img-top{
+    height: 18rem;
+    padding:2rem;
+    text-align: center;
+}
+img{
+    height: 100%;
+    object-fit: cover;
+}
