@@ -30,3 +30,69 @@ img{
     height: 100%;
     object-fit: cover;
 }
+.small-image img{
+    height: 60px;
+    border:1px solid #666;
+}
+.small-image img.image-active, .small-image img:hover{
+    border:.2rem solid #2980b9;
+}
+.content h3{
+    color:#2980b9;
+    font-size: 2rem;
+}
+.content .star i{
+    color: orange;
+}
+ .content .price{
+    color:#ff3300;
+    font-size: 1.5rem;
+}
+ .content .price span{
+    color:#666;
+    text-decoration: line-through;
+    font-size:1rem;
+}
+.deals .container-fluid .row .col-md .box1 {
+    background-image: url(../images/deal1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:100%;
+    height:290px;
+}
+.deals .container-fluid .row .col-md .box2 {
+    background-image: url(../images/deal2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width:100%;
+    height:290px;
+}
+.deals .content{
+    width:85%;
+    padding:50px 20px;
+    color:#fff;
+    overflow: hidden;
+}
+.newsletter{
+        background:linear-gradient(#2980b9,#2980b9), url(../images/deal1.jpg) no-repeat;
+        background-blend-mode: multiply;
+        background-size: cover;
+        background-position: center;
+}
+.new-btn{
+    width:50%;
+    margin: auto;
+    }
+    .newsletter .form-control{
+        border-radius: 5rem;
+        background:rgba(0,0,0,.3);
+    }
+footer h4{
+    color:#2980b9;
+}
+footer a{
+    color:#666;
+    text-decoration: none;
+}
